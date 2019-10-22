@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/Poppter/logo_shopping.git
+          username: 751028713@qq.com
+          password: zhenjie2331
+          timeout: 5
+          default-label: master
+
+server:
+  port: 101
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:100/eureka/

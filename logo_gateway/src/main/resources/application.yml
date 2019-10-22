@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: logo-gateway
+
+server:
+  port: 102
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: util://localhost:100/eureka/
